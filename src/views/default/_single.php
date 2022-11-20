@@ -34,7 +34,7 @@ $doc_contents = [
     <?php if ($model->type == FileType::IMAGE): ?>
         <div id="yii2-file-object-<?= $model->id ?>" data-toggle="dropdown" aria-haspopup="true"
              aria-expanded="false" class="floor12-single-file-object">
-            <img src="<?= $model->href ?>" class="img-responsive">
+            <img src="<?= $model->href ?>" class="img-fluid">
             <?= Html::hiddenInput((new ReflectionClass($model->class))->getShortName() . "[{$model->field}_ids][]", $model->id) ?>
         </div>
 

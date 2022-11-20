@@ -1,16 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: floor12
- * Date: 08.07.2018
- * Time: 18:41
- */
 
-namespace floor12\files\logic;
+namespace liketux\files\logic;
 
-use floor12\files\components\SimpleImage;
-use floor12\files\models\File;
-use floor12\files\models\FileType;
+use liketux\files\components\SimpleImage;
+use liketux\files\models\File;
+use liketux\files\models\FileType;
 use yii\base\ErrorException;
 
 class FileResize

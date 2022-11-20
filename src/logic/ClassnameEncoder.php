@@ -1,16 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: floor12
- * Date: 01.01.2018
- * Time: 13:28
- */
 
-namespace floor12\files\logic;
+namespace liketux\files\logic;
 
 /**
  * Class ClassnameEncoder
- * @package floor12\files\logic
+ * @package liketux\files\logic
  */
 class ClassnameEncoder
 {

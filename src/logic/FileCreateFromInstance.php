@@ -1,16 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: floor12
- * Date: 01.01.2018
- * Time: 12:56
- */
 
-namespace floor12\files\logic;
+namespace liketux\files\logic;
 
-use floor12\files\components\SimpleImage;
-use floor12\files\models\File;
-use floor12\files\models\FileType;
+use liketux\files\components\SimpleImage;
+use liketux\files\models\File;
+use liketux\files\models\FileType;
 use Yii;
 use yii\base\ErrorException;
 use yii\web\BadRequestHttpException;
@@ -19,7 +13,7 @@ use yii\web\UploadedFile;
 
 /**
  * Class FileCreateFromInstance
- * @package floor12\files\logic
+ * @package liketux\files\logic
  */
 class FileCreateFromInstance
 {

@@ -1,16 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: floor12
- * Date: 03.01.2018
- * Time: 19:37
- */
 
-namespace floor12\files\logic;
+namespace liketux\files\logic;
 
-
-use floor12\files\models\File;
-use floor12\files\models\FileType;
+use liketux\files\models\File;
+use liketux\files\models\FileType;
 use Yii;
 use yii\base\ErrorException;
 use yii\web\BadRequestHttpException;

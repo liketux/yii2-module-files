@@ -1,21 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: floor12
- * Date: 04.01.2018
- * Time: 10:39
- */
 
-namespace floor12\files\logic;
+namespace liketux\files\logic;
 
-
-use floor12\files\models\File;
+use liketux\files\models\File;
 use yii\web\BadRequestHttpException;
 use yii\web\NotFoundHttpException;
 
 /**
  * Class FileRename
- * @package floor12\files\logic
+ * @package liketux\files\logic
  * @property File $_file
  * @property string $_title
  */

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace floor12\files\logic;
+namespace liketux\files\logic;
 
 use ErrorException;
 use Yii;

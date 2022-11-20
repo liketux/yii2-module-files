@@ -1,25 +1,15 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: floor12
- * Date: 01.01.2018
- * Time: 13:34
- */
 
-namespace floor12\files\logic;
-
+namespace liketux\files\logic;
 
 use yii\base\ErrorException;
 
 class PathGenerator
 {
-
     private $path = '';
-
 
     public function __construct($storagePath)
     {
-
         if (!$storagePath)
             throw new ErrorException('Storage path not set for path generator.');
 
