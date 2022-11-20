@@ -36,7 +36,7 @@ $doc_contents = [
          style="<?= ($model->type == FileType::IMAGE) ? "background-image: url(" . $model->getPreviewWebPath(160) . ")" : NULL ?>"
          data-filename="<?= $model->getHref() ?>"
          data-title="<?= $model->title ?>"
-         data-toggle="dropdown"
+         data-bs-toggle="dropdown"
          aria-haspopup="true"
          aria-expanded="false" title="<?= $model->title ?>">
 
