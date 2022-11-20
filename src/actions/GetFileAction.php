@@ -1,10 +1,10 @@
 <?php
 
-namespace floor12\files\actions;
+namespace liketux\files\actions;
 
-use floor12\files\components\SimpleImage;
-use floor12\files\models\File;
-use floor12\files\models\FileType;
+use liketux\files\components\SimpleImage;
+use liketux\files\models\File;
+use liketux\files\models\FileType;
 use Yii;
 use yii\base\Action;
 use yii\web\NotFoundHttpException;

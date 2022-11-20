@@ -1,9 +1,9 @@
 <?php
 
-namespace floor12\files\components;
+namespace liketux\files\components;
 
-use floor12\files\assets\LightboxAsset;
-use floor12\files\models\File;
+use liketux\files\assets\LightboxAsset;
+use liketux\files\models\File;
 use yii\base\Widget;
 use yii\helpers\Html;
 

@@ -6,11 +6,11 @@
  * Time: 11:23
  */
 
-namespace floor12\files\models;
+namespace liketux\files\models;
 
 
 use ErrorException;
-use floor12\files\assets\IconHelper;
+use liketux\files\assets\IconHelper;
 use Yii;
 use yii\db\ActiveRecord;
 use yii\helpers\Url;

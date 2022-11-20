@@ -1,9 +1,9 @@
 <?php
 
-namespace floor12\files\actions;
+namespace liketux\files\actions;
 
-use floor12\files\logic\ImagePreviewer;
-use floor12\files\models\File;
+use liketux\files\logic\ImagePreviewer;
+use liketux\files\models\File;
 use Yii;
 use yii\base\Action;
 use yii\base\InvalidConfigException;

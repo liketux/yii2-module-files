@@ -6,7 +6,7 @@
  * Time: 12:42
  */
 
-use floor12\files\assets\IconHelper;
+use liketux\files\assets\IconHelper;
 
 ?>
 

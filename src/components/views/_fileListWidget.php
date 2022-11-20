@@ -12,9 +12,9 @@
  * @var $allowImageSrcDownload bool
  */
 
-use floor12\files\assets\IconHelper;
-use floor12\files\models\File;
-use floor12\files\models\FileType;
+use liketux\files\assets\IconHelper;
+use liketux\files\models\File;
+use liketux\files\models\FileType;
 use yii\web\View;
 
 $doc_contents = [

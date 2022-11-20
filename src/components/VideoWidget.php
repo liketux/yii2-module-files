@@ -1,11 +1,11 @@
 <?php
 
 
-namespace floor12\files\components;
+namespace liketux\files\components;
 
 
-use floor12\files\models\File;
-use floor12\files\models\FileType;
+use liketux\files\models\File;
+use liketux\files\models\FileType;
 use yii\base\Widget;
 use yii\helpers\Html;
 

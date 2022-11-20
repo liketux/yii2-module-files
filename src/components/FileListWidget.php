@@ -6,9 +6,9 @@
  * Time: 16:00
  */
 
-namespace floor12\files\components;
+namespace liketux\files\components;
 
-use floor12\files\assets\FileListAsset;
+use liketux\files\assets\FileListAsset;
 use Yii;
 use yii\base\Widget;
 use yii\helpers\Url;

@@ -6,7 +6,7 @@
  * Time: 21:21
  */
 
-namespace floor12\files\components;
+namespace liketux\files\components;
 
 
 use yii\base\ErrorException;

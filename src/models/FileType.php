@@ -1,7 +1,7 @@
 <?php
 
 
-namespace floor12\files\models;
+namespace liketux\files\models;
 
 
 use yii2mod\enum\helpers\BaseEnum;

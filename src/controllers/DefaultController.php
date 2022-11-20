@@ -6,15 +6,15 @@
  * Time: 12:03
  */
 
-namespace floor12\files\controllers;
+namespace liketux\files\controllers;
 
-use floor12\files\actions\GetFileAction;
-use floor12\files\actions\GetPreviewAction;
-use floor12\files\components\FileInputWidget;
-use floor12\files\logic\FileCreateFromInstance;
-use floor12\files\logic\FileCropRotate;
-use floor12\files\logic\FileRename;
-use floor12\files\models\File;
+use liketux\files\actions\GetFileAction;
+use liketux\files\actions\GetPreviewAction;
+use liketux\files\components\FileInputWidget;
+use liketux\files\logic\FileCreateFromInstance;
+use liketux\files\logic\FileCropRotate;
+use liketux\files\logic\FileRename;
+use liketux\files\models\File;
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\filters\VerbFilter;

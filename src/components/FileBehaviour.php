@@ -6,10 +6,10 @@
  * Time: 15:14
  */
 
-namespace floor12\files\components;
+namespace liketux\files\components;
 
 
-use floor12\files\models\File;
+use liketux\files\models\File;
 use Yii;
 use yii\base\Behavior;
 use yii\base\ErrorException;
@@ -128,7 +128,7 @@ class FileBehaviour extends Behavior
             foreach ($validators as $key => $validator) {
 
                 // Сначала пробегаемся по файловым валидаторам
-                if ($validator::className() == 'yii\validators\FileValidator' || $validator::className() == 'floor12\files\components\ReformatValidator') {
+                if ($validator::className() == 'yii\validators\FileValidator' || $validator::className() == 'liketux\files\components\ReformatValidator') {
                     foreach ($this->attributes as $field => $params) {
 
                         if (is_string($params)) {
