@@ -37,6 +37,7 @@
     "bower-asset/cropper": "*",
     "bower-asset/lightbox2": "*",
     "bower-asset/simple-ajax-uploader": ">=2.6.7",
+    "yiisoft/yii2-bootstrap5": "~2.0.2",
     "ext-fileinfo": "*"
   },
   "require-dev": {
