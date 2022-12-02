@@ -58,20 +58,20 @@ $doc_contents = [
 
     <ul class="dropdown-menu dropdown-menu-file-object dropdown-menu-file-object-single">
         <li>
-            <a href="<?= $model->href ?>" target="_blank" data-pjax="0">
+            <a class="dropdown-item" href="<?= $model->href ?>" target="_blank" data-pjax="0">
                 <?= IconHelper::DOWNLOAD ?>
                 <?= Yii::t('files', 'Download') ?>
             </a>
         </li>
         <li>
-            <a onclick="clipboard('<?= $model->href ?>'); return false;">
+            <a class="dropdown-item" onclick="clipboard('<?= $model->href ?>'); return false;">
                 <?= IconHelper::LINK ?>
                 <?= Yii::t('files', 'Copy link to clipboard') ?>
             </a>
         </li>
         <?php if (in_array($model->content_type, $doc_contents)): ?>
             <li>
-                <a href="https://view.officeapps.live.com/op/view.aspx?src=<?= Yii::$app->request->hostInfo . $model->href ?>}"
+                <a class="dropdown-item" href="https://view.officeapps.live.com/op/view.aspx?src=<?= Yii::$app->request->hostInfo . $model->href ?>}"
                    target="_blank" data-pjax="0">
                     <?= IconHelper::VIEW ?>
                     <?= Yii::t('files', 'View') ?>
@@ -79,21 +79,21 @@ $doc_contents = [
             </li>
         <?php endif; ?>
         <li>
-            <a onclick="showRenameFileForm(<?= $model->id ?>, event); return false;">
+            <a class="dropdown-item" onclick="showRenameFileForm(<?= $model->id ?>, event); return false;">
                 <?= IconHelper::RENAME ?>
                 <?= Yii::t('files', 'Rename') ?>
             </a>
         </li>
         <?php if ($model->type == FileType::IMAGE && !$model->isSvg()): ?>
             <li>
-                <a onclick="initCropper(<?= $model->id ?>,'<?= $model->href ?>',<?= $ratio ?>)">
+                <a class="dropdown-item" onclick="initCropper(<?= $model->id ?>,'<?= $model->href ?>',<?= $ratio ?>)">
                     <?= IconHelper::CROP ?>
                     <?= Yii::t('files', 'Edit') ?>
                 </a>
             </li>
         <?php endif; ?>
         <li>
-            <a onclick="removeFile(<?= $model->id ?>); showUploadButton(event); return false;">
+            <a class="dropdown-item" onclick="removeFile(<?= $model->id ?>); showUploadButton(event); return false;">
                 <?= IconHelper::TRASH ?>
                 <?= Yii::t('files', 'Delete') ?>
             </a>

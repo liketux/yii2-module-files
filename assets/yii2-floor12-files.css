@@ -175,6 +175,9 @@ div#cropperModal {
     box-shadow: 0 1px 4px #00000024;
     display: none;
     z-index: 999999999;
+	background: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
 }
 
 .input-group-btn .btn {
@@ -189,6 +192,11 @@ div.floor12-single-file-object-no-image {
     color: #ffffff;
     background: linear-gradient(45deg, rgb(151, 151, 151) 0%, rgb(184, 184, 184) 92%);
     border: none;
+}
+
+div.floor12-single-file-object {
+    max-height: 96px;
+    max-width: 96px;
 }
 
 div.floor12-files-widget-list-multi {

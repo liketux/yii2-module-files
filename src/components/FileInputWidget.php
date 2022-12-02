@@ -26,7 +26,7 @@ class FileInputWidget extends InputWidget
 
     public $uploadButtonText;
     public $cropperHideCancel = 'false';
-    public $uploadButtonClass = "btn btn-default btn-sm btn-upload";
+    public $uploadButtonClass = "btn btn-secondary btn-sm btn-upload";
 
     private $block_id;
     private $layout = self::VIEW_SINGLE;
